@@ -50,7 +50,7 @@ const HomeSkillsComponent = () => {
                     <span className='text-3xl w-full flex justify-center'><SiExpress/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>EXPRESS JS</p>
                 </div>
-                <div className='absolute group top-60 left-52 hover:scale-125 flex flex-col items-center'>
+                <div className='absolute group top-60 left-40 hover:scale-125 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-red-600'><FaHtml5/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>HTML 5</p>
                 </div>
@@ -113,27 +113,27 @@ const HomeSkillsComponent = () => {
             </div>
         
             <div className='h-full w-full flex relative '>
-                <div className='absolute group top-28 left-28 flex flex-col items-center'>
+                <div className='absolute group top-28 left-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-blue-500'><FaReact/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>REACT</p>
                 </div>
-                <div className='absolute group bottom-28 left-28 flex flex-col items-center'>
+                <div className='absolute group bottom-28 left-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center'><RiNextjsFill/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>NEXT</p>
                 </div>
-                <div className='absolute group top-28 right-28 flex flex-col items-center'>
+                <div className='absolute group top-28 right-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-green-600'><SiMongodb/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>MONGO</p>
                 </div>
-                <div className='absolute group bottom-28 right-28 flex flex-col items-center'>
+                <div className='absolute group bottom-28 right-24 flex flex-col items-center'>
                     <span className='text-3xl w-full flex justify-center'><SiExpress/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>EXPRESS</p>
                 </div>
-                <div className='absolute group top-40 left-16 flex flex-col items-center'>
+                <div className='absolute group top-36 left-14 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-red-600'><FaHtml5/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>HTML</p>
                 </div>
-                <div className='absolute group top-40 right-16 flex flex-col items-center'>
+                <div className='absolute group top-36 right-14 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-blue-600'><FaCss3Alt/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>CSS</p>
                 </div>

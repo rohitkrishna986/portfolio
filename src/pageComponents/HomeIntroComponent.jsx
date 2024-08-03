@@ -119,8 +119,8 @@ const HomeIntroComponent = () => {
                     <div className='flex gap-4'>                     
                         <p className='text-lg before-content relative flex items-center gap-2'>Developer</p>
                     </div>
-                    <div className='mb-2'>
-                        <p>I'm creative developer based in India, and I'm<br/>very passionate and dedicated to my work.</p>
+                    <div className='mb-2 px-4'>
+                        <p className='text-justify text-[14px]'>I'm creative developer based in India, and I'm very passionate and dedicated to my work.</p>
                     </div>
                     <div>
                         <button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></button>
