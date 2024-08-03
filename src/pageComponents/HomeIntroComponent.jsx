@@ -29,9 +29,9 @@ const HomeIntroComponent = () => {
         <div className='container bg-white w-[80%] h-[80%] flex '>
             <div className='container w-[4%] flex justify-center items-center'>
                 <div className='h-[100px] text-2xl flex flex-col justify-between'>
-                    <span className='cursor-pointer'><FaInstagram/></span>
-                    <span className='cursor-pointer'><FaWhatsapp/></span>
-                    <span className='cursor-pointer'><FaLinkedin/></span>
+                    <a href="https://www.instagram.com/__rzhi__/" target="_blank" className='cursor-pointer'><FaInstagram/></a>
+                    <a href="https://wa.me/919597835933" target="_blank" className='cursor-pointer'><FaWhatsapp/></a>
+                    <a href="https://www.linkedin.com/in/rohitkrishna-s/" target="_blank" className='cursor-pointer'><FaLinkedin/></a>
                 </div>
             </div>
             <div className='container flex justify-center items-center'>
@@ -66,9 +66,9 @@ const HomeIntroComponent = () => {
         <div className='container w-[90%] h-[90%] flex '>
             <div className='container w-[4%] flex h-full'>
                 <div className='h-[100px] text-2xl flex flex-col justify-between'>
-                    <span className='cursor-pointer'><FaInstagram/></span>
-                    <span className='cursor-pointer'><FaWhatsapp/></span>
-                    <span className='cursor-pointer'><FaLinkedin/></span>
+                    <a href="https://www.instagram.com/__rzhi__/" target="_blank" className='cursor-pointer'><FaInstagram/></a>
+                    <a href="https://wa.me/919597835933" target="_blank" className='cursor-pointer'><FaWhatsapp/></a>
+                    <a href="https://www.linkedin.com/in/rohitkrishna-s/" target="_blank" className='cursor-pointer'><FaLinkedin/></a>
                 </div>
             </div>
             <div className='container flex flex-col justify-center items-center'>
@@ -103,9 +103,9 @@ const HomeIntroComponent = () => {
         <div className='container w-[90%] h-[90%] flex '>
             <div className='container w-[4%] flex h-full'>
                 <div className='h-[100px] text-2xl flex flex-col justify-between'>
-                    <span className='cursor-pointer'><FaInstagram/></span>
-                    <span className='cursor-pointer'><FaWhatsapp/></span>
-                    <span className='cursor-pointer'><FaLinkedin/></span>
+                    <a href="https://www.instagram.com/__rzhi__/" target="_blank" className='cursor-pointer'><FaInstagram/></a>
+                    <a href="https://wa.me/919597835933" target="_blank" className='cursor-pointer'><FaWhatsapp/></a>
+                    <a href="https://www.linkedin.com/in/rohitkrishna-s/" target="_blank" className='cursor-pointer'><FaLinkedin/></a>
                 </div>
             </div>
             <div className='container flex flex-col justify-center items-center'>
