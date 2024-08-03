@@ -112,20 +112,20 @@ const HomeSkillsComponent = () => {
             <p className='text-sm font-light text-center'>Languages</p>
             </div>
         
-            <div className='h-full w-full flex relative '>
-                <div className='absolute group top-28 left-24 flex flex-col items-center'>
+            <div className='container h-full flex relative'>
+                <div className='absolute group top-24 left-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-blue-500'><FaReact/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>REACT</p>
                 </div>
-                <div className='absolute group bottom-28 left-24 flex flex-col items-center'>
+                <div className='absolute group bottom-24 left-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center'><RiNextjsFill/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>NEXT</p>
                 </div>
-                <div className='absolute group top-28 right-24 flex flex-col items-center'>
+                <div className='absolute group top-24 right-24 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-green-600'><SiMongodb/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>MONGO</p>
                 </div>
-                <div className='absolute group bottom-28 right-24 flex flex-col items-center'>
+                <div className='absolute group bottom-24 right-24 flex flex-col items-center'>
                     <span className='text-3xl w-full flex justify-center'><SiExpress/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>EXPRESS</p>
                 </div>
@@ -137,11 +137,11 @@ const HomeSkillsComponent = () => {
                     <span className='text-4xl w-full flex justify-center hover:text-blue-600'><FaCss3Alt/></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>CSS</p>
                 </div>
-                <div className='absolute group bottom-16 left-[180px] flex flex-col items-center'>
+                <div className='absolute group top-36 right-2 flex flex-col items-center'>
                     <span className='text-4xl w-full flex justify-center hover:text-green-600'><FaNode /></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>NODE</p>
                 </div>
-                <div className='absolute group top-16 left-[180px] flex flex-col items-center'>
+                <div className='absolute group top-36 left-2 flex flex-col items-center'>
                     <span className='text-3xl w-full flex justify-center hover:text-blue-600'><RiTailwindCssFill /></span>
                     <p className='hidden group-hover:flex text-[8px] font-medium text-center'>TAILWIND</p>
                 </div>
