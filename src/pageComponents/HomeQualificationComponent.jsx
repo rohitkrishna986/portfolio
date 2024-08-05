@@ -164,11 +164,6 @@ const HomeQualificationComponent = () => {
                                         and DigitalOcean.</p>
                                 </div>
                             </div>
-                            <div className='flex'>
-                                <div className='text-justify h-fit border border-gray-400 rounded-lg shadow-md p-2'>
-                                    
-                                </div>
-                            </div>
                         </div>
                     )
                 }

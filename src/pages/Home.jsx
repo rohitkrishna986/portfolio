@@ -4,6 +4,7 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import HomeAboutComponent from '../pageComponents/HomeAboutComponent';
 import HomeSkillsComponent from '../pageComponents/HomeSkillsComponent';
 import HomeQualificationComponent from '../pageComponents/HomeQualificationComponent';
+import HomeProjectComponent from '../pageComponents/HomeProjectComponent';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <div className='h-[50px]'></div>
       <HomeSkillsComponent/>
       <HomeQualificationComponent/>
+      <HomeProjectComponent/>
     </div>
   )
 }
