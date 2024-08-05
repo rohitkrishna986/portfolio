@@ -5,6 +5,7 @@ import Arrow1 from '../assests/arrow-1.svg';
 import Arrow2 from '../assests/arrow-2.svg';
 import star from '../assests/star.svg';
 import useScroll from '../helper/UseScroll.jsx'
+import {Link} from 'react-router-dom'
 
 const HomeIntroComponent = () => {
 
@@ -46,7 +47,7 @@ const HomeIntroComponent = () => {
                         <p>I'm creative developer based in India, and I'm<br/>very passionate and dedicated to my work.</p>
                     </div>
                     <div>
-                        <button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></button>
+                        <Link to={'/contact'} className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></Link>
                     </div>
                 </div>
                 <div className='w-[50%] flex items-center pl-20'>
@@ -86,7 +87,7 @@ const HomeIntroComponent = () => {
                         <p>I'm creative developer based in India, and I'm<br/>very passionate and dedicated to my work.</p>
                     </div>
                     <div>
-                        <button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></button>
+                        <Link to={'/contact'} className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></Link>
                     </div>
                 </div>  
             </div>
@@ -123,7 +124,7 @@ const HomeIntroComponent = () => {
                         <p className='text-justify text-[14px]'>I'm creative developer based in India, and I'm very passionate and dedicated to my work.</p>
                     </div>
                     <div>
-                        <button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></button>
+                        <Link to={'/contact'} className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Say Hello<span className='text-xl'><FaTelegramPlane/></span></Link>
                     </div>
                 </div>  
             </div>
