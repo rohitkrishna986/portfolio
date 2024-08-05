@@ -15,9 +15,9 @@ const Footer = () => {
         </div>
         <div className='mt-4'>
           <ul className='flex gap-5 text-[10px] text-gray-300 pl-2 font-medium'>
-            <li className='hover:text-white cursor-pointer'>ABOUT</li>
-            <li className='hover:text-white cursor-pointer'>PROJECT</li>
-            <li className='hover:text-white cursor-pointer'>CONTACT</li>
+            <Link to={'/about'} className='hover:text-white cursor-pointer'>ABOUT</Link>
+            <Link to={'/projects'} className='hover:text-white cursor-pointer'>PROJECT</Link>
+            <Link to={'/contact'} className='hover:text-white cursor-pointer'>CONTACT</Link>
           </ul>
         </div>
         <div className='text-md flex gap-4 mt-4'>

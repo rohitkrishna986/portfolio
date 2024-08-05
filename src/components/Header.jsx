@@ -16,11 +16,11 @@ const Header = () => {
         </div>
         <div>
             <ul className='hidden md:flex gap-10 text-md font-medium'>
-                <Link className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Home</Link>
-                <Link className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>About</Link>
-                <Link className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Skills</Link>
-                <Link className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Projects</Link>
-                <Link className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Contact</Link>
+                <Link to={'/'} className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Home</Link>
+                <Link to={'/about'} className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>About</Link>
+                <Link to={'skills'} className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Skills</Link>
+                <Link to={'/projects'} className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Projects</Link>
+                <Link to={'/contact'} className='text-[rgb(20,20,20)] hover:text-black hover:font-semibold'>Contact</Link>
             </ul>
         </div>
         <div className='md:hidden text-3xl transition-all'>
