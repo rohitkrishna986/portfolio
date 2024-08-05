@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedin, FaRegCopyright, FaTelegramPlane, FaWhatsapp } 
 
 const Footer = () => {
   return (
-    <div className='container mx-auto h-[150px] bg-black transition-all text-white flex justify-center'>
+    <div className='container mx-auto w-full h-[150px] bg-black transition-all text-white flex justify-center'>
       <div className='container w-[50%] h-full flex flex-col items-center'>
         <div className='mt-4'>
             <Link to={'/'}>
