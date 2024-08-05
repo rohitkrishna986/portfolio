@@ -3,6 +3,7 @@ import HomeIntroComponent from '../pageComponents/HomeIntroComponent'
 import { BsArrowDownCircle } from "react-icons/bs";
 import HomeAboutComponent from '../pageComponents/HomeAboutComponent';
 import HomeSkillsComponent from '../pageComponents/HomeSkillsComponent';
+import HomeQualificationComponent from '../pageComponents/HomeQualificationComponent';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeAboutComponent/>
       <div className='h-[50px]'></div>
       <HomeSkillsComponent/>
+      <HomeQualificationComponent/>
     </div>
   )
 }
