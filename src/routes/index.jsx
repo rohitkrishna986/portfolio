@@ -6,6 +6,7 @@ import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
 import Project from "../pages/Project";
 import CurrencyConvertor from "../projects/currency-convertor/CurrencyConvertor.jsx";
+import BmiCalculator from '../projects/bmi-calculator/BmiCalculator.jsx'
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
                 path : 'currency-convertor',
                 element : <CurrencyConvertor/>
             },
+            {
+                path : 'bmi-calculator',
+                element : <BmiCalculator/>
+            }
         ]
     }
 ])

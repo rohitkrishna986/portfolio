@@ -21,7 +21,7 @@ const ProjectList = [
         id: 2,
         name: "BMI Calculator",
         createdBy: "Rohit",
-        linkPage: "",
+        linkPage: "/bmi-calculator",
         description: "A BMI Calculator application built with React allows users to easily calculate their Body Mass Index (BMI) by inputting their weight and height. The app provides instant feedback on BMI categories such as underweight, normal weight, overweight, and obesity. With a clean and user-friendly interface, it leverages React's state management to handle user inputs and display results dynamically. Ideal for health-conscious individuals seeking a quick and convenient way to monitor their body weight status.",
         projectImage: BmiLogo,
         projectIcon : <GiWeightLiftingUp/>
