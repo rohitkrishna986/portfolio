@@ -7,6 +7,8 @@ import Contact from "../pages/Contact";
 import Project from "../pages/Project";
 import CurrencyConvertor from "../projects/currency-convertor/CurrencyConvertor.jsx";
 import BmiCalculator from '../projects/bmi-calculator/BmiCalculator.jsx'
+import QrCodeGenerator from "../projects/qrcode-generator/QrCodeGenerator.jsx";
+import AdviceApp from "../projects/advice-app/AdviceApp.jsx";
 
 
 const router = createBrowserRouter([
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
             {
                 path : 'bmi-calculator',
                 element : <BmiCalculator/>
+            },
+            {
+                path : 'qrcode-generator',
+                element : <QrCodeGenerator/>
+            },
+            {
+                path : 'advice-app',
+                element : <AdviceApp/>
             }
         ]
     }

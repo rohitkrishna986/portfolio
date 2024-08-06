@@ -39,7 +39,7 @@ const ProjectList = [
         id: 4,
         name: "Advice App",
         createdBy: "Rohit",
-        linkPage: "",
+        linkPage: "/advice-app",
         description: "An Advice Application built with React and an API provides users with random or topic-specific advice. By integrating with an external advice API, the app delivers insightful or motivational tips at the click of a button. The application features a clean, interactive interface that refreshes with new advice each time the user interacts with it. Ideal for those seeking a quick boost of inspiration or helpful suggestions.",
         projectImage: AdviceLogo,
         projectIcon : <IoQrCode/>
@@ -48,7 +48,7 @@ const ProjectList = [
         id: 5,
         name: "QR Code Generator",
         createdBy: "Rohit",
-        linkPage: "",
+        linkPage: "/qrcode-generator",
         description: "This QR code generator application, built with Vite and React, allows users to create customized QR codes effortlessly. The app features a user-friendly interface where users input their data, and it utilizes an API to generate and fetch the corresponding QR code. With Vite for fast builds and React for dynamic user interactions, the app ensures a smooth and efficient experience.",
         projectImage: QrCodeLogo,
         projectIcon : <IoQrCode/>
