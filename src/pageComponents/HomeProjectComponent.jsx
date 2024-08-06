@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaTelegramPlane } from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 const HomeProjectComponent = () => {
   return (
@@ -14,7 +15,7 @@ const HomeProjectComponent = () => {
         <div className='mt-8 flex flex-col justify-center items-center gap-4'>
             <p>Explore our cutting-edge projects and stay updated with the latest developments.
             Click here to dive into our live project showcase and see the innovation in action!</p>
-            <button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Projects<span className='text-xl'><FaTelegramPlane/></span></button>
+            <Link to={'projects'}><button className='flex items-center gap-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Projects<span className='text-xl'><FaTelegramPlane/></span></button></Link>
         </div>
     </div>
     {/* // Mobile view */}
@@ -27,7 +28,7 @@ const HomeProjectComponent = () => {
         <div className='mt-8 flex flex-col justify-center items-center gap-4 px-5 text-justify'>
             <p className='text-sm'>Explore our cutting-edge projects and stay updated with the latest developments.
             Click here to dive into our live project showcase and see the innovation in action!</p>
-            <button className='flex items-center gap-2 mt-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Projects<span className='text-xl'><FaTelegramPlane/></span></button>
+            <Link to={'projects'}><button className='flex items-center gap-2 mt-2 bg-[rgb(20,20,20)] hover:bg-black text-white px-4 py-2 rounded-lg'>Projects<span className='text-xl'><FaTelegramPlane/></span></button></Link>
         </div>
     </div>
    </>
