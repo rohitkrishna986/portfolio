@@ -27,7 +27,7 @@ const HorizonalCardProduct = ({
       const categoryProduct = await fetchCategoryWiseProduct(category)
       setLoading(false)
       setData(categoryProduct?.data)
-
+      
     }
     useEffect(()=> {
       fetchData();
