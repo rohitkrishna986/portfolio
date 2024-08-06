@@ -17,7 +17,14 @@ const ProjectDetails = ({project,onClose}) => {
           <h2 className='uppercase text-xl font-semibold'>{project?.name}</h2>
           <p className='text-[10px]'>Created by : <span className='text-blue-500'>{project?.createdBy}</span></p>
           <p className='my-8 text-sm text-justify'>{project?.description}</p>
-          <Link to={project.linkPage}><button className='bg-[rgb(20,20,20)] hover:bg-black text-white text-sm px-4 py-2 rounded-lg'>Go to Project</button></Link>
+          {
+            project?.pageRedirect ? (
+              <button href={project?.pageRedirect} className='bg-[rgb(20,20,20)] hover:bg-black text-white text-sm px-4 py-2 rounded-lg'>Go to Project</button>
+            ) : (
+              <Link to={project.linkPage}><button className='bg-[rgb(20,20,20)] hover:bg-black text-white text-sm px-4 py-2 rounded-lg'>Go to Project</button></Link>
+            )
+          }
+          
         </div>
       </div>
     </div>

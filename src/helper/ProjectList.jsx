@@ -13,6 +13,7 @@ const ProjectList = [
         name: "E-Commerce App",
         createdBy: "Rohit",
         linkPage: "",
+        pageRedirect : "https://rohit-portfolio-ecommerce.vercel.app",
         description: "An e-commerce SPA using the MERN stack (MongoDB, Express, React, Node.js) features seamless user functionalities such as product listings, detailed views, authentication, shopping cart, and order management, all managed with React, Redux, and Axios. The backend, powered by Node.js and Express, provides RESTful APIs, JWT-based authentication, and order processing, with MongoDB for data storage. An integrated admin panel, built with React Admin, enables efficient management of products, orders, and users, ensuring a smooth experience for both customers and administrators.",
         projectImage: EcommerceLogo,
         projectIcon : <IoQrCode/>
