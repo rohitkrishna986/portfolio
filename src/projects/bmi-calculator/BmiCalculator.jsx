@@ -114,8 +114,8 @@ function BmiCalculator() {
               </div>
               {bmi !== null && (
                 <div className='w-full mt-4 flex justify-center items-center'>
-                  <div className='bg-slate-100 flex shadow-inner justify-center w-[80%] p-2 rounded-md border-2 border-slate-400'>
-                    <div className='h-full flex flex-col justify-center items-center w-[80%] gap-4'>
+                  <div className='bg-slate-100 flex shadow-inner justify-center w-[95%] p-2 rounded-md border-2 border-slate-400'>
+                    <div className='h-full flex flex-col justify-center items-center w-[90%] gap-4'>
                       <div className='font-semibold text-gray-500'><p>Your BMI : {bmi}</p></div>
                       <div className='font-semibold pl-5 text-gray-500'><p>Status : {bmiStatus}</p></div>
                     </div>
