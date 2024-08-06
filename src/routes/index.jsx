@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
 import Project from "../pages/Project";
+import CurrencyConvertor from "../projects/currency-convertor/CurrencyConvertor.jsx";
 
 
 const router = createBrowserRouter([
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
             },
             {
                 path : 'projects',
-                element : <Project/>
+                element : <Project/>,
+            },
+            {
+                path : 'currency-convertor',
+                element : <CurrencyConvertor/>
             },
         ]
     }

@@ -8,7 +8,7 @@ import MobileSidebar from './MobileSidebar';
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false)
   return (
-    <div className='container mx-auto w-full h-16 bg-white fixed flex items-center lg:px-32 px-8 justify-between z-50 border-b-2'>
+    <div className='mx-auto w-full h-16 bg-white fixed flex items-center lg:px-32 px-8 justify-between z-50 border-b-2'>
         <div className=''>
             <Link to={'/'}>
                 <img src={HomeLogo} width={80}/>
