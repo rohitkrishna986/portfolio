@@ -21,8 +21,8 @@ const HomeQualificationComponent = () => {
             <div className='w-full h-[20%] gap-1 flex flex-col justify-center items-center'>
                 <h2 className='text-3xl font-bold'>Qualification</h2>
                 <div className='mt-5 flex'>
-                    <button onClick={()=>setEduToExp(false)} className='px-4 py-2 text-xs flex font-medium border-r border-black items-center gap-2 hover:bg-slate-100'><span className='text-lg'><FaBookOpen/></span>EDUCATION</button>
-                    <button onClick={()=>setEduToExp(true)} className='px-4 py-2 text-xs font-medium flex items-center gap-2 hover:bg-slate-100'><span className='text-lg'><MdOutlineWork /></span>EXPERIENCE</button>
+                    <button onClick={()=>setEduToExp(false)} className='px-4 py-2 text-xs bgcolor flex font-medium border-r border-black items-center gap-2 hover:bg-slate-100'><span className='text-lg'><FaBookOpen/></span>EDUCATION</button>
+                    <button onClick={()=>setEduToExp(true)} className='px-4 py-2 text-xs bgcolor font-medium flex items-center gap-2 hover:bg-slate-100'><span className='text-lg'><MdOutlineWork /></span>EXPERIENCE</button>
                 </div>
             </div>  
             <div className='w-full h-full flex flex-1 justify-center items-center'>

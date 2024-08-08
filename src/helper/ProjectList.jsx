@@ -6,6 +6,7 @@ import CurrencyLogo from '../projects/currency-convertor/assets/icon.jpg'
 import { IoQrCode } from "react-icons/io5";
 import { MdCurrencyExchange } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
+import { FaOpencart, FaTeamspeak } from "react-icons/fa6";
 
 const ProjectList = [
     {
@@ -16,7 +17,7 @@ const ProjectList = [
         pageRedirect : "https://rohit-portfolio-ecommerce.vercel.app",
         description: "An e-commerce SPA using the MERN stack (MongoDB, Express, React, Node.js) features seamless user functionalities such as product listings, detailed views, authentication, shopping cart, and order management, all managed with React, Redux, and Axios. The backend, powered by Node.js and Express, provides RESTful APIs, JWT-based authentication, and order processing, with MongoDB for data storage. An integrated admin panel, built with React Admin, enables efficient management of products, orders, and users, ensuring a smooth experience for both customers and administrators.",
         projectImage: EcommerceLogo,
-        projectIcon : <IoQrCode/>
+        projectIcon : <FaOpencart/>
     },
     {
         id: 2,
@@ -43,7 +44,7 @@ const ProjectList = [
         linkPage: "/advice-app",
         description: "An Advice Application built with React and an API provides users with random or topic-specific advice. By integrating with an external advice API, the app delivers insightful or motivational tips at the click of a button. The application features a clean, interactive interface that refreshes with new advice each time the user interacts with it. Ideal for those seeking a quick boost of inspiration or helpful suggestions.",
         projectImage: AdviceLogo,
-        projectIcon : <IoQrCode/>
+        projectIcon : <FaTeamspeak/>
     },
     {
         id: 5,
