@@ -3,7 +3,7 @@ import BmiLogo from '../assests/BmiLogo.jpg'
 import AdviceLogo from '../assests/AdviceLogo.png'
 import EcommerceLogo from '../assests/EcommerceLogo.jpg'
 import CurrencyLogo from '../projects/currency-convertor/assets/icon.jpg'
-import { IoQrCode } from "react-icons/io5";
+import { IoChatbox, IoQrCode } from "react-icons/io5";
 import { MdCurrencyExchange } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { FaOpencart, FaTeamspeak } from "react-icons/fa6";
@@ -55,6 +55,17 @@ const ProjectList = [
         projectImage: QrCodeLogo,
         projectIcon : <IoQrCode/>
     },
+    {
+        id: 6,
+        name: "Connect Chat App",
+        createdBy: "Rohit",
+        linkPage: "",
+        pageRedirect : "https://rohit-connect-two.vercel.app",
+        description: "Connect Chat App is a real-time messaging application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io. Designed to be fully responsive, it ensures a seamless user experience across all devices. The app offers instant, secure communication with features such as real-time chat, user authentication, and media sharing. It supports both private and group conversations, with a clean interface that adapts to different screen sizes. Users can manage their profiles, search for contacts, and view message history, all while benefiting from a scalable and secure architecture.",
+        projectImage: EcommerceLogo,
+        projectIcon : <IoChatbox/>
+    },
+    
 ];
 
 export default ProjectList;
