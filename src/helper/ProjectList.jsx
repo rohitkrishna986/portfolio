@@ -2,7 +2,7 @@ import QrCodeLogo from '../assests/QrCodeLogo.png';
 import BmiLogo from '../assests/BmiLogo.jpg'
 import AdviceLogo from '../assests/AdviceLogo.png'
 import EcommerceLogo from '../assests/EcommerceLogo.jpg'
-import Chat from "@/assests/Chat.jpg"
+import Chat from "../assests/Chat.jpg"
 import CurrencyLogo from '../projects/currency-convertor/assets/icon.jpg'
 import { IoChatbox, IoQrCode } from "react-icons/io5";
 import { MdCurrencyExchange } from "react-icons/md";
@@ -22,21 +22,22 @@ const ProjectList = [
     },
     {
         id: 2,
-        name: "BMI Calculator",
-        createdBy: "Rohit",
-        linkPage: "/bmi-calculator",
-        description: "A BMI Calculator application built with React allows users to easily calculate their Body Mass Index (BMI) by inputting their weight and height. The app provides instant feedback on BMI categories such as underweight, normal weight, overweight, and obesity. With a clean and user-friendly interface, it leverages React's state management to handle user inputs and display results dynamically. Ideal for health-conscious individuals seeking a quick and convenient way to monitor their body weight status.",
-        projectImage: BmiLogo,
-        projectIcon : <GiWeightLiftingUp/>
-    },
-    {
-        id: 3,
         name: "Currency Convertor",
         createdBy: "Rohit",
         linkPage: "/currency-convertor",
         description: "A Currency Converter application built with React enables users to convert amounts between different currencies quickly and efficiently. By selecting the source and target currencies and entering the amount, users receive real-time conversion results. The app integrates with currency exchange rate APIs to ensure up-to-date information and offers a sleek, responsive interface for an intuitive user experience. Perfect for travelers, businesses, and anyone needing accurate currency exchange calculations on the go.",
         projectImage: CurrencyLogo,
         projectIcon : <MdCurrencyExchange/>
+    },
+    {
+        id: 3,
+        name: "Connect Chat App",
+        createdBy: "Rohit",
+        linkPage: "",
+        pageRedirect : "https://rohit-connect-app.vercel.app",
+        description: "Connect Chat App is a real-time messaging application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io. Designed to be fully responsive, it ensures a seamless user experience across all devices. The app offers instant, secure communication with features such as real-time chat, user authentication, and media sharing. It supports both private and group conversations, with a clean interface that adapts to different screen sizes. Users can manage their profiles, search for contacts, and view message history, all while benefiting from a scalable and secure architecture.",
+        projectImage: Chat,
+        projectIcon : <IoChatbox/>
     },
     {
         id: 4,
@@ -58,13 +59,12 @@ const ProjectList = [
     },
     {
         id: 6,
-        name: "Connect Chat App",
+        name: "BMI Calculator",
         createdBy: "Rohit",
-        linkPage: "",
-        pageRedirect : "https://rohit-connect-two.vercel.app",
-        description: "Connect Chat App is a real-time messaging application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io. Designed to be fully responsive, it ensures a seamless user experience across all devices. The app offers instant, secure communication with features such as real-time chat, user authentication, and media sharing. It supports both private and group conversations, with a clean interface that adapts to different screen sizes. Users can manage their profiles, search for contacts, and view message history, all while benefiting from a scalable and secure architecture.",
-        projectImage: Chat,
-        projectIcon : <IoChatbox/>
+        linkPage: "/bmi-calculator",
+        description: "A BMI Calculator application built with React allows users to easily calculate their Body Mass Index (BMI) by inputting their weight and height. The app provides instant feedback on BMI categories such as underweight, normal weight, overweight, and obesity. With a clean and user-friendly interface, it leverages React's state management to handle user inputs and display results dynamically. Ideal for health-conscious individuals seeking a quick and convenient way to monitor their body weight status.",
+        projectImage: BmiLogo,
+        projectIcon : <GiWeightLiftingUp/>
     },
     
 ];
