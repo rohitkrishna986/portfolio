@@ -4,7 +4,7 @@ import AdviceLogo from "../assests/AdviceLogo.png";
 import EcommerceLogo from "../assests/EcommerceLogo.jpg";
 import Chat from "../assests/Chat.jpg";
 import CurrencyLogo from "../projects/currency-convertor/assets/icon.jpg";
-import todoLogo from "../assests/togoLogo.png";
+import todoLogo from "../assests/todoLogo.png";
 import { IoChatbox, IoQrCode } from "react-icons/io5";
 import { MdCurrencyExchange } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
